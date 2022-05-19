@@ -50,8 +50,6 @@ namespace Vizualizar
         private void buttonbuscar_Click(object sender, EventArgs e)
         {
             conectar();
-           // buscar();
-           // cerrar();
         }
 
         private void Form1_Load(object sender, EventArgs e)
