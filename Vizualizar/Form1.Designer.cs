@@ -53,6 +53,7 @@ namespace Vizualizar
             this.buttoncerrar.TabIndex = 28;
             this.buttoncerrar.Text = "Cerrar";
             this.buttoncerrar.UseVisualStyleBackColor = true;
+            this.buttoncerrar.Click += new System.EventHandler(this.buttoncerrar_Click);
             // 
             // buttonbuscar
             // 

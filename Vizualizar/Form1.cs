@@ -102,5 +102,10 @@ namespace Vizualizar
         {
 
         }
+
+        private void buttoncerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
