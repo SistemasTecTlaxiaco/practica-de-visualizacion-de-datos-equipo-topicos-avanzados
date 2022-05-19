@@ -84,6 +84,10 @@ namespace Vizualizar
                 MessageBox.Show("No hay nada");
             }
         }
+        void cerrar()
+        {
+            databaseConnection.Close();
+        }
 
 
 
@@ -91,6 +95,7 @@ namespace Vizualizar
         {
             conectar();
             buscar();
+            cerrar();
         }
 
         private void Form1_Load(object sender, EventArgs e)
